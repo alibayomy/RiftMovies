@@ -1,0 +1,20 @@
+.carousel-inner img{
+    height: 500px;
+    opacity: .1;
+    left: -30%;
+}
+.presentation{
+    height: 500px;
+    
+}
+.topRated
+{
+    font-size: 2rem!important;
+    line-height: 1.25!important;
+    /* color: #fff; */
+    color:#F7EF8A;
+    font-weight: bolder;
+}
+.topRatedImg{
+    height: 40px;
+}

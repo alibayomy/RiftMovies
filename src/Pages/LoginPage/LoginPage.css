@@ -1,0 +1,13 @@
+.formCont
+{
+    background-color: #060D17;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    color: white;
+}
+.formDadContainer
+{
+    height: 100vh;
+}
+.error{
+    color: red;
+}

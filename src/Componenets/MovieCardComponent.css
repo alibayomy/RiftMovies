@@ -1,0 +1,20 @@
+.card{
+    background-color: #060D17;
+}
+.card-text{
+    border: 1px solid white;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.card-footer{
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+}
+.heartIcon
+{
+    height:40px;
+    cursor: pointer;
+}
