@@ -39,7 +39,7 @@ function NavBarComponent(props) {
                                 </Link>
                             </li>
                         </div>
-                        <div className="row col-3 me-5">
+                        <div className="row col-5 me-5">
                             <div className="container-fluid justify-content-end ">
                                 <form className="d-flex justify-content-end">
                                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(e) => setSearch(e.target.value)}></input>
@@ -47,20 +47,23 @@ function NavBarComponent(props) {
                                 </form>
                             </div>
                         </div>
+                        <div className="ms-5 col-2">
                         <select className="form-select mySelectMenu  ms-5 me-5 text-white text-center" aria-label=".form-select-sm example"
                         onChange={(e)=> setContextLang(e.target.value)}>
                             <option value="en" className="text-white">English</option>
                             <option value="ar" className="text-white" >Arabic</option>
                             
                         </select>
-                        <div className="row  col-3 ">
+                        </div>
+                       
+                        {/* <div className="row  col-3 ">
                             <li className="nav-item  navLogIn col-3 container-fluid text-end me-0 ">
                                 <Link className="nav-link active ms-4" to="/loginpage">Sign In</Link>
                             </li>
                             <li className="nav-item  navSignUp col-3 container text-end m-0">
                                 <Link className="nav-link active ms-0" aria-current="page" to="/registerpage">Sign up</Link>
                             </li>
-                        </div>
+                        </div> */}
 
                     </ul>
                 </div>

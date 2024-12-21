@@ -38,7 +38,7 @@ function SingleMoviePage(props){
                     </div>
                     <div className=" col-lg-6 col-md-6 col-sm-6 offset-md-6 mt-5">
                         <img src={starImage} className="me-5"></img>
-                        <span className="text-white fw-bold">{movieData.vote_average}</span>
+                        <span className="text-white fw-bold">{Math.round(movieData.vote_average * 10)  / 10}</span>
                     </div>
                      <div className=" col-lg-6 col-md-6 col-sm-6 offset-md-6 mt-5">
                         {
